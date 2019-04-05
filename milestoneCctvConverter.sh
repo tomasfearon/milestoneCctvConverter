@@ -2,7 +2,7 @@
 
 #	Script: milestoneCctvConverter.sh
 #	Author:	Tomas FEARON
-# Email: [firstname][lastname]@gmail.com
+# 	Email: tomasfearon@gmail.com
 #	Date Created: 2019-04-04
 #	Date Updated: 2019-04-05
 #	Purpose - Concatinates .pic files from Milestone CCTV unit and converts them so they can be viewed
@@ -10,8 +10,8 @@
 #	Usage - ./milestoneCctvConverter.sh [Path to Mediadatabase folder] 
 
 #	Notes	-	The .pic files contain H264/AVC video streams with a framerate of 25
-# 				No spaces in filepaths!
-#				To exit before completion, close terminal window
+# 			No spaces in filepaths!
+#			To exit before completion, close terminal window
 
 #	Exit Codes
 #	0	-	Successful Excecution
