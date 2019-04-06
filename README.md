@@ -12,9 +12,9 @@ Dependencies
 
 Background
 ===============================
-30 days worth of CCTV footage from multiple cameras was required from a crime scene. Because of the volume of footage, the Milestone CCTV unit could not export video as .avi files without crashing. 
+30 days worth of CCTV footage from multiple cameras was required from a crime scene. Because of the volume of footage, the Milestone CCTV unit could not export video as .avi files without crashing. The occupant therefore could only provide an export in the proprietary format used by the unit. 
 
-The export provided by the occupant contained a 'Mediadatabase' directory, with several sub-folders. Each of these sub-folders contained another sub-folder named by the date the recording started. For example
+The export provided by the occupant contained a 'Mediadatabase' directory, with several sub-folders. Each of these sub-folders contained another sub-folder named by the date the recording started. For example:
 
 	  Mediadatabase/
 		00075F8F646F_1/
@@ -39,15 +39,15 @@ If you find this script useful, I would be more than happy to update it for you.
 
 **1) Filepaths must not contain any spaces**
 
-**2) To exit once the script is running, you must close the terminal**
+**2) To exit before completiton once the script is running, you must close the terminal**
 
 ctrl-c will just skip to the next mencoder run
 	
-**3) Current settings specific the settings of the .pic files in my case.**
+**3) Current settings specific to the .pic files in my case**
 
-It is likely that settings will differ between installations. The main ones that will impact your output is the framerate.
+Although this is the first such system I have encountered, it is likely that settings will differ between installations. The main one that will impact your output is the framerate.
 
-If this is an issue, amend the -fps on line 73 to the correct value.
+If this is an issue, amend the -fps on line 73 to the correct value. Media info will show you the correct value for your particular GOPs.
 
 If desired, I could update the script to detect fps settings automatically - email me if you require this.
 
