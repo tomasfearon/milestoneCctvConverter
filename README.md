@@ -1,6 +1,6 @@
 milestoneCctvConverter.sh
 ===============================
-This script will attempt to convert Mediadatabase exports containing .pic files from Milestone CCTV units into viewable video.
+This script will attempt to convert Mediadatabase exports containing .pic/.chk files from Milestone CCTV units into viewable video.
 
 Dependencies
 ===============================
@@ -26,7 +26,9 @@ All .pic files were consistently 2.5MB large, and it was assumed that these woul
 
 Mediainfo shows that they are H.264/MPEG-4 AVC video streams with 25 frames per second. 
 
-To enable playback and to make review easier, this script traverses the Mediadatabase directory and concatenates the .pic files and packages them as an .avi
+A small number of directories contained .chk files as well as .pic files. They contain the same data as the .pic files, and are numbered consecutively with the .pic files.
+
+To enable playback and to make review easier, this script traverses the Mediadatabase directory and concatenates the .pic/.chk files and packages them as an .avi
 
 Usage
 ===============================
