@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "Atlassian",
+    "owner": "Tomas",
+    "description": "Test"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Architecture",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Tomas"
+  }
+}
